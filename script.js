@@ -18,11 +18,13 @@ var specialChars = "!@#$%^&*()"
 // Ask user how many characters should be in the password
 function howManyCharacters(){
   numOfCharacters = parseInt( prompt("How many characters?") );
+  console.log(numOfCharacters)
 }
 
 // Ask user if wanting to use lower case letters
 function useLowerCase(){
   useLowerCaseLtrs = confirm("Do you want lower case letters in the password?");
+  console.log(useLowerCaseLtrs)
 }
 
 // Ask user if wanting to use upper case letters
@@ -39,6 +41,9 @@ function useNumbers(){
 function useSpecialChars(){
   useSpecialChars = confirm("Do you want lower case letters in the password?");
 }
+
+
+
 
 
 
@@ -64,7 +69,7 @@ function generatePassword() {
 
 
 
-  return "finalpassword"
+  return ""
 }
 
 
