@@ -10,6 +10,10 @@ var useSpecialChars;
 
 var allChars = [];
 
+var lowercase = "abcdefghijklmnopqrstuvwxyz"
+var uppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+var numbers = "0123456789"
+var specialChars = "!@#$%^&*()"
 
 // Ask user how many characters should be in the password
 function howManyCharacters(){
@@ -34,7 +38,6 @@ function useNumbers(){
 // Ask user if wanting ot use special characters
 function useSpecialChars(){
   useSpecialChars = confirm("Do you want lower case letters in the password?");
-  
 }
 
 
