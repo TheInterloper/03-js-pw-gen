@@ -4,7 +4,7 @@
 
 This project tested my abilites with JavaScript to build a working password generator based on the users parameters determined by prompts. Some choices being allowing for upper/lowercase letters or length of password.
 
-deployed link here
+https://theinterloper.github.io/03-js-pw-gen/
 
 ![](assets/images/pwgen.png)
 
