@@ -13,7 +13,8 @@ var chosenChars = ""
 var lowercase = "abcdefghijklmnopqrstuvwxyz"
 var uppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 var numbers = "0123456789"
-var specialChars = "!@#$%^&*()"
+var specialChars = "!@#$%^&*()/[]`~-_=+<>?"
+
 
 
 // Ask user how many characters should be in the password
